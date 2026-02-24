@@ -5,8 +5,8 @@ go 1.25.5
 require (
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/google/uuid v1.6.0
-	github.com/leeforge/core v0.0.0
-	github.com/leeforge/framework v0.0.0
+	github.com/leeforge/core v0.1.1-0.20260224214832.1611c6f6
+	github.com/leeforge/framework v0.1.1-0.20260224160612.a5290fe
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.27.0
 )
@@ -71,7 +71,3 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/leeforge/core => ../../core
-
-replace github.com/leeforge/framework => ../../framework
