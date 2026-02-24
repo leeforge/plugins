@@ -29,7 +29,7 @@ runtime.Register(&ou.OUPlugin{})
 ## Architecture
 
 ```
-ou/                            # https://github.com/JsonLee12138/plugins/tree/main/ou
+ou/                            # https://github.com/leeforge/plugins/tree/main/ou
 ├── plugin.go                  # Plugin lifecycle (Enable)
 ├── ports.go                   # ServiceFactory interface
 ├── scope_resolver.go          # Datascope resolver (OU_SELF / OU_SUBTREE)

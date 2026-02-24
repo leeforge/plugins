@@ -29,7 +29,7 @@ runtime.Register(&tenant.TenantPlugin{})
 ## Architecture
 
 ```
-tenant/                        # https://github.com/JsonLee12138/plugins/tree/main/tenant
+tenant/                        # https://github.com/leeforge/plugins/tree/main/tenant
 ├── plugin.go                  # Plugin lifecycle (Enable/Disable/Install)
 ├── ports.go                   # ServiceFactory interface
 ├── shared/

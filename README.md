@@ -1,6 +1,6 @@
 # Leeforge Plugins
 
-[![GitHub](https://img.shields.io/badge/GitHub-JsonLee12138%2Fplugins-blue)](https://github.com/JsonLee12138/plugins)
+[![GitHub](https://img.shields.io/badge/GitHub-leeforge%2Fplugins-blue)](https://github.com/leeforge/plugins)
 
 Leeforge CMS 的可插拔业务扩展模块。每个插件是一个独立的 Go module，通过 framework 插件系统注册到宿主应用。
 
@@ -14,7 +14,7 @@ Leeforge CMS 的可插拔业务扩展模块。每个插件是一个独立的 Go 
 ## Architecture Overview
 
 ```
-plugins/                        # https://github.com/JsonLee12138/plugins
+plugins/                        # https://github.com/leeforge/plugins
 ├── tenant/                     # Tenant plugin (independent Go module)
 │   ├── plugin.go               # Lifecycle: Enable / Disable / Install
 │   ├── ports.go                # ServiceFactory interface
