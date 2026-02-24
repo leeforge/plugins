@@ -29,20 +29,20 @@ runtime.Register(&tenant.TenantPlugin{})
 ## Architecture
 
 ```
-server/plugins/tenant/
-├── plugin.go              # Plugin lifecycle (Enable/Disable/Install)
-├── ports.go               # ServiceFactory interface
+tenant/                        # https://github.com/JsonLee12138/plugins/tree/main/tenant
+├── plugin.go                  # Plugin lifecycle (Enable/Disable/Install)
+├── ports.go                   # ServiceFactory interface
 ├── shared/
-│   ├── errors.go          # Exported error sentinels
-│   ├── events.go          # Event constants and payloads
-│   ├── exported.go        # Re-exported public types
-│   └── ports.go           # RoleSeeder / UserLookup interfaces
+│   ├── errors.go              # Exported error sentinels
+│   ├── events.go              # Event constants and payloads
+│   ├── exported.go            # Re-exported public types
+│   └── ports.go               # RoleSeeder / UserLookup interfaces
 ├── tenant/
-│   ├── handler.go         # HTTP handlers
-│   ├── service.go         # Business logic
-│   └── dto.go             # Request/Response DTOs
+│   ├── handler.go             # HTTP handlers
+│   ├── service.go             # Business logic
+│   └── dto.go                 # Request/Response DTOs
 └── factory/
-    └── ent_factory.go     # Default Ent-backed factory
+    └── ent_factory.go         # Default Ent-backed factory
 ```
 
 ## ServiceFactory

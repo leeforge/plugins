@@ -29,19 +29,19 @@ runtime.Register(&ou.OUPlugin{})
 ## Architecture
 
 ```
-server/plugins/ou/
-├── plugin.go              # Plugin lifecycle (Enable)
-├── ports.go               # ServiceFactory interface
-├── scope_resolver.go      # Datascope resolver (OU_SELF / OU_SUBTREE)
-├── doc.go                 # Package documentation
+ou/                            # https://github.com/JsonLee12138/plugins/tree/main/ou
+├── plugin.go                  # Plugin lifecycle (Enable)
+├── ports.go                   # ServiceFactory interface
+├── scope_resolver.go          # Datascope resolver (OU_SELF / OU_SUBTREE)
+├── doc.go                     # Package documentation
 ├── shared/
-│   └── errors.go          # Shared error sentinels
+│   └── errors.go              # Shared error sentinels
 ├── organization/
-│   ├── handler.go         # HTTP handlers
-│   ├── service.go         # Business logic (tree, members, subtree)
-│   └── dto.go             # Request/Response DTOs
+│   ├── handler.go             # HTTP handlers
+│   ├── service.go             # Business logic (tree, members, subtree)
+│   └── dto.go                 # Request/Response DTOs
 └── factory/
-    └── ent_factory.go     # Default Ent-backed factory
+    └── ent_factory.go         # Default Ent-backed factory
 ```
 
 ## ServiceFactory
