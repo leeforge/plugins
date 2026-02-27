@@ -6,8 +6,8 @@ require (
 	entgo.io/ent v0.14.5
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/google/uuid v1.6.0
-	github.com/leeforge/core v0.1.1-0.20260224214832.1611c6f6
-	github.com/leeforge/framework v0.1.1-0.20260224160612.a5290fe
+	github.com/leeforge/core v0.1.3
+	github.com/leeforge/framework v0.2.0
 	github.com/mattn/go-sqlite3 v1.14.34
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.27.0
@@ -57,7 +57,7 @@ require (
 	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/text v0.32.0 // indirect
 	golang.org/x/tools v0.39.0 // indirect
-	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
+	golang.org/x/tools/go/expect v0.1.0-deprecated // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
