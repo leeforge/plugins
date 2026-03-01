@@ -6,8 +6,9 @@ require (
 	entgo.io/ent v0.14.5
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/google/uuid v1.6.0
-	github.com/leeforge/core v0.1.3
+	github.com/leeforge/core v0.2.0
 	github.com/leeforge/framework v0.2.0
+	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.27.0
 )
